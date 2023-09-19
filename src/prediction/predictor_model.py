@@ -11,7 +11,7 @@ from tensorflow.keras.callbacks import Callback, EarlyStopping, LambdaCallback
 from tensorflow.keras.layers import Dense, Input
 from tensorflow.keras.models import Model
 import tensorflow_addons as tfa
-from tensorflow.keras.optimizers import Adam, SGD
+from tensorflow.keras.optimizers import Adam
 
 from logger import get_logger
 
