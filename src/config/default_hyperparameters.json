@@ -1,0 +1,4 @@
+{
+  "activation": "tanh",
+  "lr": 1e-3
+}
