@@ -35,7 +35,7 @@ def transformed_data(target_field_name, num_samples) -> Tuple[pd.DataFrame, pd.S
         n_informative=2,
         random_state=42,
         shuffle=True,
-        coef=False,
+        coef=False
     )
     # Convert to pandas DataFrame and Series
     features_df = pd.DataFrame(
